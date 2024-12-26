@@ -3,7 +3,7 @@
 function Hobbies(props) {
   return (
     <div><br></br>
-        <div className="Heading">{props.hobbies}</div>
+        <div className="Heading"><b>{props.hobbies}</b></div>
         <ul>
             <li>Interact with people</li>
             <li>Travelling</li>

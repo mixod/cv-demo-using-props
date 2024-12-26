@@ -6,10 +6,10 @@ function Computer(props) {
     <><br></br>
     <div className="Heading"><b>COMPUTER PROFICIENCY:</b></div><br></br>
     <div>
-    Office Automation : {officeAutomation}<br></br>
-    Technical Knowledge: {technicalKnowledge} <br></br>
+    Office Automation : {officeAutomation}<br/>
+    Technical Knowledge: {technicalKnowledge} <br/>
     </div>
-    
+     
     </>
   )
 }
