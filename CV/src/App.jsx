@@ -1,60 +1,45 @@
-// // import { useState } from "react"
-
-// import { useState } from "react"
-
-
-
-// function App() {
-//   const [state,setState]=useState(4);
-
-// function increment(){
-//   setState(state+1);
-// }
-// function decrement(){
-//   setState(state-1);
-// }
-
-//   return (
-//     <div>
-//       <button onClick={increment}>+</button>
-//       <spam>{state}</spam>
-//       <button onClick={decrement}>-</button>
-//     </div>
-//   )
-// }
-
-// export default App
-
-
-
-// // function App() {
-// //   const [state, setState]=useState("RAM");
-
-
-// //   function change(){
-// //     setState("Hari");
-// //   }
-// //   return (
-// //     <>
-// //     <spam>{state}</spam>
-
-// //     <button onClick={change}>CLICK</button>
-// //     </>
-// //   )
-// // }
-
-// // export default App
-
-//Arrow function 
- 
-function demo(){
-  
-}
+import Academic from "./Academic";
+import Career from "./Career";
+import Header from "./Header";
+import Intro from "./Intro";
 
 function App() {
+  const title = "CURRICULUM VITAE";
+  const introduction = {
+    name: "Shyam Cole",
+    address: "panauti-kavre",
+    mobno: 9841256370,
+    email: "ssssnnn123@gmail.com",
+  };
+  const career = " CAREER OBJECTIVES";
+  const academic = "ACADEMIC DETAILS";
+
   return (
-    
-  )
+    <>
+      <div>
+        <Header title={title} />
+      </div>
+      <div>
+        <Intro introduction={introduction} />
+      </div>
+      <br></br>
+      <div className="line"></div>
+      <br></br>
+      <div>
+        <Career career={career} />
+        <p>
+          Aim to be accosiated with progressive organization which offers an
+          excellent atmosphere<br></br>  to prove myself by utilizing all
+          technique knowledge into practice and profit myself with<br></br>  
+          experience and valuale knowledge for the development and growth of
+          organization.
+        </p>
+      </div>
+      <div>
+        <Academic academic={academic}/>
+      </div>
+    </>
+  );
 }
 
-export default App
+export default App;
