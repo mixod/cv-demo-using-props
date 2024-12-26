@@ -2,6 +2,7 @@ import Academic from "./Academic";
 import Career from "./Career";
 import Computer from "./Computer";
 import Header from "./Header";
+import Hobbies from "./Hobbies";
 import Intro from "./Intro";
 
 function App() {
@@ -27,6 +28,7 @@ function App() {
     officeAutomation:" Microsoft Office 2007,2003 ",
     technicalKnowledge:"Tally, Typing",
   };
+  const hobbies = "Hobbies & Intrest";
 
   return (
     <>
@@ -54,6 +56,9 @@ function App() {
       </div>
       <div>
         <Computer compu={comp}/>
+      </div>
+      <div>
+        <Hobbies hobbies={hobbies}/>
       </div>
     </>
   );
