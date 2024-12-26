@@ -12,7 +12,16 @@ function App() {
     email: "ssssnnn123@gmail.com",
   };
   const career = " CAREER OBJECTIVES";
-  const academic = "ACADEMIC DETAILS";
+  const academic = {
+    college:"R.V.S(B.S.CITY)",
+    university: "Binova University Hazaribagh",
+    division:"2nd",
+    school: "Aananda College Hazaribagh(jharkhand)",
+    board: "J.A.C",
+    School: "Ram Ratan High School(jharkhand)",
+    
+  
+  };
 
   return (
     <>
