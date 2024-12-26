@@ -1,5 +1,6 @@
 import Academic from "./Academic";
 import Career from "./Career";
+import Computer from "./Computer";
 import Header from "./Header";
 import Intro from "./Intro";
 
@@ -21,6 +22,10 @@ function App() {
     School: "Ram Ratan High School(jharkhand)",
     
   
+  };
+  const comp ={
+    officeAutomation:" Microsoft Office 2007,2003 ",
+    technicalKnowledge:"Tally, Typing",
   };
 
   return (
@@ -46,6 +51,9 @@ function App() {
       </div>
       <div>
         <Academic academic={academic}/>
+      </div>
+      <div>
+        <Computer compu={comp}/>
       </div>
     </>
   );
